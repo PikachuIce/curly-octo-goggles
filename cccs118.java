@@ -24,7 +24,7 @@ public class cccs118 {
 			sizes[i] += midpoints[i] - midpoints[i - 1];
 		}
 		Arrays.sort(sizes);
-		System.out.println(sizes[0]);
+		System.out.printf("%.1f", sizes[0]);
 		/*
 		 * calculate midpoints, then sizes, then sort array to get smallest sized place
 		 * passes test case, but not DMOJ case
